@@ -1,0 +1,32 @@
+section{
+    margin:  4rem
+}
+
+
+
+.navbar>.container, .navbar>.container-fluid, .navbar>.container-lg, .navbar>.container-md, .navbar>.container-sm, .navbar>.container-xl, .navbar>.container-xxl {
+justify-content: start;
+align-items: center;
+
+
+
+}
+
+.nav-link{
+
+    color: #b1b1b1
+}
+tbody, td, tfoot, th, thead, tr {
+border-width: 1px;
+}
+
+tr{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    text-align: center;
+
+}
+
+button{
+    margin-bottom: 1rem;
+}
