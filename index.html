@@ -13,19 +13,24 @@
 
 <body>
     <section>
-        <div class="text-center login">
+        <div class="login">
             <h1>Login</h1>
             <form>
                 <div class="mb-3">
-<label for="" class="form-label">E-mail</label>
+                  <label for="exampleInputEmail1" class="form-label">E-mail</label>
+                  <input type="email" class="form-control" id="email" aria-describedby="emailHelp">
                 </div>
-            </form>
-
+                <div class="mb-3">
+                  <label for="exampleInputPassword1" class="form-label">Senha</label>
+                  <input type="password" class="form-control" id="senha">
+                </div>
+                <button type="submit" class="btn btn-primary" onclick="verificar()">Enviar</button>
+              </form>
         </div>
 
     </section>
 
-
+<script src="./script.js"></script>
 </body>
 
 </html>

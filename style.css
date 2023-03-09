@@ -2,5 +2,7 @@ body{
     margin: 0;
 }
 .login{
-    margin-top: 4rem;
+    width: 30rem;
+    margin: 40px auto;
+    padding: 6rem;
 }
