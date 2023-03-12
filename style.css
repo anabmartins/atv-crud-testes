@@ -1,8 +1,39 @@
-body{
-    margin: 0;
+body {
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: linear-gradient(-45deg, #E868F3, #5C9CFE, #F5D8FE);
+  z-index: 1;
+  background-size: 400% 400%;
+  animation: animate 15s ease infinite;
 }
-.login{
-    width: 30rem;
-    margin: 40px auto;
-    padding: 6rem;
+.login {
+  width: 30rem;
+  margin: auto auto;
+  padding: 5rem;
+  background-color: #ffff;
+  border-radius: 19px;
+}
+h1{
+    margin-bottom: 2rem;
+    color: #5C9CFE;
+}
+form .btn{
+    margin-top: 2rem;
+}
+.btn{
+    background-color: #F5D8FE;
+}
+@keyframes animate { 
+    0%{
+        background-position: 0 50%;
+    }
+    50%{
+        background-position: 100% 50%;
+    }
+    100%{
+        background-position: 0 50%;
+    }
 }

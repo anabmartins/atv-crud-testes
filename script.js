@@ -1,10 +1,15 @@
-const users = []
+function verify(){
+        let email = document.getElementById('email').value
+       // let psw = document.getElementById('psw').value
+        // usuario = email.substring(0, email.indexOf('@'))
 
-email = document.getElementById('email').value
-senha = document.getElementById('senha').value
+        if(email.length === 0){
+                document.getElementById('msgemail').innerHTML = "<font color='red'>tem que colocar email ai</font>"                
+        } else if(
+              (usuario.length>=1)
+        )
 
-function cadastrar(){
-    if (email == null || senha == null){
-        users.push(email)
-    }
+        {
+               
+         }
 }
