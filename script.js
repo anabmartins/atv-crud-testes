@@ -12,6 +12,6 @@ function verify(){
               (usuario.search('@') ==-1)
         )
         {
-
+                window.location.href = './cadastro.html'
         }
 }
