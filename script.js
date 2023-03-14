@@ -1,6 +1,6 @@
 function verify(){
-        let email = document.getElementById('email').value
-       // let psw = document.getElementById('psw').value
+       let email = document.getElementById('email').value
+       let psw = document.getElementById('psw').value
         usuario = email.substring(0, email.indexOf('@'))
         dominio = email.substring(email.indexOf('@')+1, email.length)
         if(email.length === 0){
